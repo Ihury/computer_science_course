@@ -1,30 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 
-float somar(float a, float b) {
-    return a + b;
-};
-
-float subtrair(float a, float b) {
-    return a - b;
-}
-
-float multiplicar(float a, float b) {
-    return a * b;
-};
-
-float dividir(float a, float b) {
-    return a / b;
-};
-
-float elevar(float a, float b) {
-    return pow(a, b);
-};
-
-float resolver_radical(float radicando, float indice) {
-    indice = indice ? indice : 2;
-    return pow(radicando, 1.0 / indice);
-};
+float somar(float a, float b);
+float subtrair(float a, float b);
+float multiplicar(float a, float b);
+float dividir(float a, float b);
+float elevar(float a, float b);
+float resolver_radical(float a, float b);
 
 int main() {
     int opcao;
@@ -129,4 +111,29 @@ int main() {
     printf("Resposta: %.2lf\n\n", resposta);    
 
     return 0;
+};
+
+float somar(float a, float b) {
+    return a + b;
+};
+
+float subtrair(float a, float b) {
+    return a - b;
+}
+
+float multiplicar(float a, float b) {
+    return a * b;
+};
+
+float dividir(float a, float b) {
+    return a / b;
+};
+
+float elevar(float a, float b) {
+    return pow(a, b);
+};
+
+float resolver_radical(float radicando, float indice) {
+    indice = indice ? indice : 2;
+    return pow(radicando, 1.0 / indice);
 };
