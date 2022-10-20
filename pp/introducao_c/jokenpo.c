@@ -18,7 +18,7 @@ int main()
     else if (strcmp(escolhaDigitada, "tesoura") == 0) escolhaUsuario = 2;
 
     if (escolhaUsuario == escolhaPrograma) printf("Empate!");
-    else if ((escolhaUsuario == 3 && escolhaPrograma == 0) || escolhaUsuario < escolhaPrograma) printf("Você ganhou!");
+    else if ((escolhaUsuario == 2 && escolhaPrograma == 0) || escolhaUsuario < escolhaPrograma) printf("Você ganhou!");
     else printf("O Programa ganhou");
 
     return 0;
