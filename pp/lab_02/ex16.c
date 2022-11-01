@@ -1,6 +1,6 @@
 /*
-Leia um valor de comprimento em polegadas e apresente-o convertido em centímetros. A 
-fórmula de conversão é: C = P*2.54, sendo C o comprimento em centímetros e P o comprimento 
+Leia um valor de comprimento em polegadas e apresente-o convertido em centimetros. A 
+formula de conversao e: C = P*2.54, sendo C o comprimento em centimetros e P o comprimento 
 em polegadas.
 */
 #include <stdio.h>

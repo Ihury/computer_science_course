@@ -1,6 +1,6 @@
 /*
-Leia um valor de comprimento em metros e apresente-o convertido em jardas. A fórmula de 
-conversão é: J = M/0.91, sendo J o comprimento em jardas e M o comprimento em metros.
+Leia um valor de comprimento em metros e apresente-o convertido em jardas. A formula de 
+conversao e: J = M/0.91, sendo J o comprimento em jardas e M o comprimento em metros.
 */
 #include <stdio.h>
 

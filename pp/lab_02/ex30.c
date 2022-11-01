@@ -1,6 +1,6 @@
 /*
-Leia um valor em real e a cotação do dólar. Em seguida, imprima o valor correspondente em 
-dólares.
+Leia um valor em real e a cotaçao do dolar. Em seguida, imprima o valor correspondente em 
+dolares.
 */
 #include <stdio.h>
 

@@ -1,7 +1,7 @@
 /*
-Leia  um  valor  de  volume  em  litros  e  apresente-o  convertido  em  metros  cúbicos  m3.  A 
-fórmula  de  conversão  é:  M  =  L  /1000,  sendo  L  o  volume  em  litros  e  M  o  volume  em  metros 
-cúbicos.
+Leia  um  valor  de  volume  em  litros  e  apresente-o  convertido  em  metros  cubicos  m3.  A 
+formula  de  conversao  e:  M  =  L  /1000,  sendo  L  o  volume  em  litros  e  M  o  volume  em  metros 
+cubicos.
 */
 #include <stdio.h>
 

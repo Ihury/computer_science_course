@@ -1,6 +1,6 @@
 /*
 Usando  switch,  escreva  um  programa  que  leia  um  inteiro  entre  1  e  7  e  imprima  o  dia  da 
-semana correspondente a este  número. Isto é, domingo se 1, segunda-feira se 2, e  assim por 
+semana correspondente a este  numero. Isto e, domingo se 1, segunda-feira se 2, e  assim por 
 diante.
 */
 #include <stdio.h>
@@ -9,7 +9,7 @@ int main()
 {
     int dia;
 
-    printf("Digite um número entre 1 e 7: ");
+    printf("Digite um numero entre 1 e 7: ");
     scanf("%d", &dia);
 
     switch (dia)
@@ -36,7 +36,7 @@ int main()
             printf("Sábado");
             break;
         default:
-            printf("Número inválido.");
+            printf("Numero inválido.");
             break;
     }
 

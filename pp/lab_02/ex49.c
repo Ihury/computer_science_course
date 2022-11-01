@@ -1,6 +1,6 @@
 /*
-Faça um programa para leia o horário (hora, minuto e segundo) de início e a duração, em
-segundos, de uma experiência biológica. O programa deve resultar com o novo horário (hora,
+Faça um programa para leia o horário (hora, minuto e segundo) de inicio e a duraçao, em
+segundos, de uma experiência biologica. O programa deve resultar com o novo horário (hora,
 minuto e segundo) do termino da mesma.
 */
 

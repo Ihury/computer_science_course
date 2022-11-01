@@ -1,5 +1,5 @@
 /*
-Faça um programa que receba três números e mostre-os em ordem crescente.
+Faça um programa que receba três numeros e mostre-os em ordem crescente.
 */
 #include <stdio.h>
 
@@ -7,13 +7,13 @@ int main()
 {
     int num1, num2, num3;
 
-    printf("Digite o primeiro número: ");
+    printf("Digite o primeiro numero: ");
     scanf("%d", &num1);
 
-    printf("Digite o segundo número: ");
+    printf("Digite o segundo numero: ");
     scanf("%d", &num2);
 
-    printf("Digite o terceiro número: ");
+    printf("Digite o terceiro numero: ");
     scanf("%d", &num3);
 
     if (num1 < num2 && num1 < num3) {

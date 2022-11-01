@@ -1,6 +1,6 @@
 /*
 Usando  switch,  escreva  um  programa  que  leia  um  inteiro  entre  1  e  12  e  imprima  o  mês 
-correspondente a este número. Isto é, janeiro se 1, fevereiro se 2, e assim por diante. 
+correspondente a este numero. Isto e, janeiro se 1, fevereiro se 2, e assim por diante. 
 */
 #include <stdio.h>
 
@@ -8,7 +8,7 @@ int main()
 {
     int mes;
 
-    printf("Digite um número entre 1 e 12: ");
+    printf("Digite um numero entre 1 e 12: ");
     scanf("%d", &mes);
 
     switch (mes)
@@ -50,7 +50,7 @@ int main()
             printf("Dezembro");
             break;
         default:
-            printf("Número inválido.");
+            printf("Numero inválido.");
             break;
     }
 

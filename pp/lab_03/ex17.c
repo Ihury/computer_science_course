@@ -1,7 +1,7 @@
 /*
-Faça um programa que calcule e mostre a área de um trapézio. Sabe-se que: 
+Faça um programa que calcule e mostre a área de um trapezio. Sabe-se que: 
 𝐴=((basemaior + basemenor) ∗ altura)/2  
-Lembre-se a base maior e a base menor devem ser números maiores que zero.
+Lembre-se a base maior e a base menor devem ser numeros maiores que zero.
 */
 #include <stdio.h>
 
@@ -20,7 +20,7 @@ int main()
 
     if (base_maior > 0 && base_menor > 0) {
         area = ((base_maior + base_menor) * altura) / 2;
-        printf("A área do trapézio é: %f", area);
+        printf("A área do trapezio e: %f", area);
     } else {
         printf("As bases devem ser maiores que zero.");
     }

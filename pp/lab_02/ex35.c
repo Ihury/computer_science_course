@@ -1,7 +1,7 @@
 /*
-Sejam  a  e  b  os  catetos  de  um  triângulo,  onde  a  hipotenusa  é  obtida  pela  equação: 
+Sejam  a  e  b  os  catetos  de  um  triângulo,  onde  a  hipotenusa  e  obtida  pela  equaçao: 
 ℎ𝑖𝑝𝑜𝑡𝑒𝑛𝑢𝑠𝑎=√𝑎2 +b2. Faça um programa que receba os valores de a e b e calcule o valor da 
-hipotenusa através da equação. Imprima o resultado dessa operação.
+hipotenusa atraves da equaçao. Imprima o resultado dessa operaçao.
 */
 #include <stdio.h>
 

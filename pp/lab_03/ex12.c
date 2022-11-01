@@ -1,6 +1,6 @@
 /*
-Ler  um  número  inteiro.  Se  o  número  lido  for  negativo,  escreva  a  mensagem  “Número 
-inválido”. Se o número for positivo, calcular o logaritmo deste número. 
+Ler  um  numero  inteiro.  Se  o  numero  lido  for  negativo,  escreva  a  mensagem  “Numero 
+inválido”. Se o numero for positivo, calcular o logaritmo deste numero. 
 */
 #include <stdio.h>
 #include <math.h>
@@ -9,11 +9,11 @@ int main()
 {
     int num;
 
-    printf("Digite um número: ");
+    printf("Digite um numero: ");
     scanf("%d", &num);
 
-    if (num >= 0) printf("O logaritmo do número é: %f", log10(num));    
-    else printf("O número é inválido.");
+    if (num >= 0) printf("O logaritmo do numero e: %f", log10(num));    
+    else printf("O numero e inválido.");
 
     return 0;
 }

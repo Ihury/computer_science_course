@@ -1,8 +1,8 @@
 /*
- Escreva um programa que, dado o valor da venda, imprima a comissão que deverá ser paga 
-ao vendedor. Para calcular a comissão, considere a tabela abaixo: 
+ Escreva um programa que, dado o valor da venda, imprima a comissao que deverá ser paga 
+ao vendedor. Para calcular a comissao, considere a tabela abaixo: 
  
-Venda mensal                                            | Comissão 
+Venda mensal                                            | Comissao 
 Maior ou igual a R$100.000,00                           | R$700,00 + 16% das vendas 
 Menor que R$100.000,00 e maior ou igual a R$80.000,00   | R$650,00 + 14% das vendas 
 Menor que R$80.000,00 e maior ou igual a R$60.000,00    | R$600,00 + 14% das vendas 
@@ -33,7 +33,7 @@ int main()
         comissao = 400 + venda * 0.14;
     }
 
-    printf("A comissão é: %f", comissao);
+    printf("A comissao e: %f", comissao);
 
     return 0;
 }

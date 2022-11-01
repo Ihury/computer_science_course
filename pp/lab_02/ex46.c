@@ -1,6 +1,6 @@
 /*
-Faça um programa que leia um número inteiro positivo de três dígitos (de 100 a 999). Gere 
-outro número formado pelos dígitos invertidos do número lido. 
+Faça um programa que leia um numero inteiro positivo de três digitos (de 100 a 999). Gere 
+outro numero formado pelos digitos invertidos do numero lido. 
 Exemplo: 
   numero_lido = 123 
   numero_gerado = 321 

@@ -1,6 +1,6 @@
 /*
-Leia o valor do raio de um círculo e calcule e imprima a área do círculo correspondente. A 
-área do círculo é *raio2, considere  = 3.141592.
+Leia o valor do raio de um circulo e calcule e imprima a área do circulo correspondente. A 
+área do circulo e *raio2, considere  = 3.141592.
 */
 #include <stdio.h>
 

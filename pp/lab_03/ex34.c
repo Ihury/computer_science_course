@@ -1,13 +1,13 @@
 /*
-Leia a nota e o número de faltas de um aluno, e escreva seu conceito. De acordo com a tabela 
-abaixo, quando o aluno tem mais de 20 faltas ocorre uma redução de conceito.
+Leia a nota e o numero de faltas de um aluno, e escreva seu conceito. De acordo com a tabela 
+abaixo, quando o aluno tem mais de 20 faltas ocorre uma reduçao de conceito.
 
-NOTA            | CONCEITO (ATÉ 20 FAL |TAS)    | CONCEITO (MAIS DE 20 FALTAS) 
-9.0 até 10.0    | A                             | B 
-7.5 até 8.9     | B                             | C 
-5.0 até 7.4     | C                             | D 
-4.0 até 4.9     | D                             | E 
-0.0 até 3.9     | E                             | E 
+NOTA            | CONCEITO (ATe 20 FAL |TAS)    | CONCEITO (MAIS DE 20 FALTAS) 
+9.0 ate 10.0    | A                             | B 
+7.5 ate 8.9     | B                             | C 
+5.0 ate 7.4     | C                             | D 
+4.0 ate 4.9     | D                             | E 
+0.0 ate 3.9     | E                             | E 
 */
 #include <stdio.h>
 
@@ -20,7 +20,7 @@ int main()
     printf("Digite a nota: ");
     scanf("%f", &nota);
 
-    printf("Digite o número de faltas: ");
+    printf("Digite o numero de faltas: ");
     scanf("%d", &faltas);
 
     if (nota >= 9.0) conceito = 'A';

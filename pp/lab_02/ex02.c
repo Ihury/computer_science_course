@@ -1,4 +1,4 @@
-// Faça um programa que leia um número real e o imprima.
+// Faça um programa que leia um numero real e o imprima.
 #include <stdio.h>
 
 int main() {

@@ -1,5 +1,5 @@
 /*
-Faça um programa que receba um número inteiro e verifique se este número é par ou ímpar.
+Faça um programa que receba um numero inteiro e verifique se este numero e par ou impar.
 */
 #include <stdio.h>
 
@@ -7,11 +7,11 @@ int main()
 {
     int num;
 
-    printf("Digite um número: ");
+    printf("Digite um numero: ");
     scanf("%d", &num);
 
-    if (num % 2 == 0) printf("O número é par.");
-    else printf("O número é ímpar.");
+    if (num % 2 == 0) printf("O numero e par.");
+    else printf("O numero e impar.");
 
     return 0;
 }

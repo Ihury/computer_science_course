@@ -1,4 +1,4 @@
-// Leia um número real e imprima a quinta parte deste número.
+// Leia um numero real e imprima a quinta parte deste numero.
 #include <stdio.h>
 
 int main(void) {

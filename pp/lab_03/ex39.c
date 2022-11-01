@@ -1,21 +1,21 @@
 /*
  Uma empresa decide dar um aumento aos seus funcionários de acordo com uma tabela que 
 considera o salário atual e o tempo de serviço de cada funcionário. Os funcionários com menor 
-salário  terão  um  aumento  proporcionalmente  maior  do  que  os  funcionários  com  um  salário 
+salário  terao  um  aumento  proporcionalmente  maior  do  que  os  funcionários  com  um  salário 
 maior,  e  conforme  o  tempo  de  serviço  na  empresa,  cada  funcionário  irá  receber  um  bônus 
 adicional de salário. Faça um programa que leia: 
  o valor do salário atual do funcionário; 
- o tempo de serviço desse funcionário na empresa (número de anos de trabalho na 
+ o tempo de serviço desse funcionário na empresa (numero de anos de trabalho na 
 empresa). 
 Use as tabelas abaixo para calcular o salário reajustado deste funcionário e imprima o valor do 
-salário  final  reajustado,  ou  uma  mensagem  caso  o  funcionário  não  tenha  direito  a  nenhum 
+salário  final  reajustado,  ou  uma  mensagem  caso  o  funcionário  nao  tenha  direito  a  nenhum 
 aumento. 
  
 Salário Atual       | Reajuste (%) 
-Até 500,00          | 25%          
-Até 1000,00         | 20%          
-Até 1500,00         | 15%          
-Até 2000,00         | 10%          
+Ate 500,00          | 25%          
+Ate 1000,00         | 20%          
+Ate 1500,00         | 15%          
+Ate 2000,00         | 10%          
 Acima de 2000,00    | Sem reajuste 
 
 Tempo de Serviço  | Bônus 
@@ -50,7 +50,7 @@ int main()
     else if (tempo <= 10) bonus = 300.0;
     else bonus = 500.0;
 
-    printf("O salário reajustado é: %f", salario * (1 + reajuste) + bonus);
+    printf("O salário reajustado e: %f", salario * (1 + reajuste) + bonus);
 
     return 0;
 }
