@@ -1,14 +1,4 @@
-/*
-Escreva um programa em C que leia um arquivo texto (o usuário deverá digitar o nome do arquivo).
-O arquivo está organizado de tal forma que cada linha contém uma palavra.
-Faça a leitura desse arquivo e depois copie apenas as vogais para o arquivo de destino “apenasVogais.txt” (cada conjunto de vogais em uma linha).
-Utilize as funções de leitura (fscanf) e escrita (fprintf), e considere vogais em caixa alta e caixa baixa.
-*/
 #include <stdio.h>
-
-char *obterVogais(char *palavra)
-{
-}
 
 int main()
 {
